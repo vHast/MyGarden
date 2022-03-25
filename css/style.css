@@ -145,6 +145,40 @@ a {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: #e2e2e2;
+}
+
+#courses {
+  margin: 0 5rem;
+  height: 50vh;
+}
+
+#courses .courseswrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#courses .courseswrap article {
+  width: 427px;
+  height: 24rem;
+}
+
+#courses .courseswrap article .courseimg {
+  width: 427px;
+  height: 284.667px;
+}
+
+#courses .courseswrap article h4 {
+  padding-top: 0.6rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#courses .courseswrap article p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#courses #secondwrap {
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

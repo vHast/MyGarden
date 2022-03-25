@@ -149,6 +149,39 @@ a {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: rgb(226, 226, 226);
+}
 
+#courses {
+  margin: 0 5rem;
+  height: 50vh;
+
+  .courseswrap {
+    display: flex;
+    justify-content: space-evenly;
+
+    article {
+      width: 427px;
+      height: 24rem;
+
+      .courseimg {
+        width: 427px;
+        height:  284.667px;
+      }
+
+      h4 {
+        padding-top: 0.6rem;
+        text-align: center;
+        font-size: 1.2rem;
+      }
+
+      p {
+        padding-top: 1rem;
+        text-align: center;
+      }
+    }
+  }
+
+  #secondwrap {
+    margin-top: 1rem;
+  }
 }

@@ -1,0 +1,5 @@
+// Proper image sizes
+
+For courses:
+
+W: 427px H: 284.667px
