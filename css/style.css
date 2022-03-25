@@ -138,7 +138,7 @@ a {
   font-weight: bold;
 }
 
-#content {
+.content {
   height: 10vh;
   display: flex;
   flex-direction: column;
@@ -149,7 +149,7 @@ a {
 
 #courses {
   margin: 0 5rem;
-  height: 50vh;
+  height: fit-content;
 }
 
 #courses .courseswrap {
@@ -157,23 +157,31 @@ a {
   justify-content: space-evenly;
 }
 
-#courses .courseswrap article {
+#courses .courseswrap .columntransform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+}
+
+#courses .courseswrap .columntransform article {
+  margin-left: 1rem;
+  gap: 5px;
   width: 427px;
   height: 24rem;
 }
 
-#courses .courseswrap article .courseimg {
+#courses .courseswrap .columntransform article .courseimg {
   width: 427px;
   height: 284.667px;
 }
 
-#courses .courseswrap article h4 {
+#courses .courseswrap .columntransform article h4 {
   padding-top: 0.6rem;
   text-align: center;
   font-size: 1.2rem;
 }
 
-#courses .courseswrap article p {
+#courses .courseswrap .columntransform article p {
   padding-top: 1rem;
   text-align: center;
 }

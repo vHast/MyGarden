@@ -142,7 +142,7 @@ a {
   }
 }
 
-#content {
+.content {
   height: 10vh;
   display: flex;
   flex-direction: column;
@@ -153,30 +153,38 @@ a {
 
 #courses {
   margin: 0 5rem;
-  height: 50vh;
+  height: fit-content;
 
   .courseswrap {
     display: flex;
     justify-content: space-evenly;
 
-    article {
-      width: 427px;
-      height: 24rem;
+    .columntransform {
+      display: flex;
+      flex-direction: row;
+      justify-content: space;
 
-      .courseimg {
+      article {
+        margin-left: 1rem;
+        gap: 5px;
         width: 427px;
-        height:  284.667px;
-      }
-
-      h4 {
-        padding-top: 0.6rem;
-        text-align: center;
-        font-size: 1.2rem;
-      }
-
-      p {
-        padding-top: 1rem;
-        text-align: center;
+        height: 24rem;
+  
+        .courseimg {
+          width: 427px;
+          height:  284.667px;
+        }
+  
+        h4 {
+          padding-top: 0.6rem;
+          text-align: center;
+          font-size: 1.2rem;
+        }
+  
+        p {
+          padding-top: 1rem;
+          text-align: center;
+        }
       }
     }
   }
