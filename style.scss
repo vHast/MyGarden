@@ -61,7 +61,7 @@ a {
 }
 
 .nav-branding p i {
-  color: dodgerblue;
+  color: rgb(122, 255, 89);
   text-shadow: rgb(190, 221, 255) 1px 1px 5px;
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 .nav-link:hover{
-  color: dodgerblue;
+  color: rgb(122, 255, 89);
 }
 /* Section 1.1 - Navbar hamburger menu*/
 
@@ -85,7 +85,7 @@ a {
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  background-color: dodgerblue;
+  background-color: rgb(44, 122, 24);
 }
 
 #showcase {
@@ -143,19 +143,12 @@ a {
 }
 
 #content {
-  height: 50vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+  background-color: rgb(226, 226, 226);
 
-  h1 {
-    margin-top: 2rem;
-  }
-
-  p {
-    margin-top: 1rem;
-    max-width: 300px;
-  }
 }

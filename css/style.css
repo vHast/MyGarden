@@ -56,7 +56,7 @@ a {
 }
 
 .nav-branding p i {
-  color: dodgerblue;
+  color: #7aff59;
   text-shadow: #beddff 1px 1px 5px;
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 .nav-link:hover {
-  color: dodgerblue;
+  color: #7aff59;
 }
 
 /* Section 1.1 - Navbar hamburger menu*/
@@ -80,7 +80,7 @@ a {
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  background-color: dodgerblue;
+  background-color: #2c7a18;
 }
 
 #showcase {
@@ -139,20 +139,12 @@ a {
 }
 
 #content {
-  height: 50vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
-}
-
-#content h1 {
-  margin-top: 2rem;
-}
-
-#content p {
-  margin-top: 1rem;
-  max-width: 300px;
+  background-color: #e2e2e2;
 }
 /*# sourceMappingURL=style.css.map */
