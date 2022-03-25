@@ -122,6 +122,16 @@ a {
   }
 
   .title {
+
+    h1 {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
     font-size: 7rem;
     color: white;
     text-shadow: 5px 5px 5px black;
@@ -129,5 +139,23 @@ a {
       color: rgb(122, 255, 89);
       font-weight: bold;
     }
+  }
+}
+
+#content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    max-width: 300px;
   }
 }

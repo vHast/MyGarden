@@ -123,8 +123,36 @@ a {
   text-shadow: 5px 5px 5px black;
 }
 
+#showcase .title h1 {
+  display: flex;
+  align-items: center;
+}
+
+#showcase .title img {
+  width: 100px;
+  height: 100px;
+}
+
 #showcase .title span {
   color: #7aff59;
   font-weight: bold;
+}
+
+#content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#content h1 {
+  margin-top: 2rem;
+}
+
+#content p {
+  margin-top: 1rem;
+  max-width: 300px;
 }
 /*# sourceMappingURL=style.css.map */
