@@ -79,7 +79,7 @@ a {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: #2c7a18;
 }
 
@@ -188,5 +188,28 @@ a {
 
 #courses #secondwrap {
   margin-top: 1rem;
+}
+
+#introduction {
+  height: 400px;
+  margin-top: 3rem;
+  text-align: left;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#introduction .contentwrapper {
+  width: 1000px;
+}
+
+#introduction .contentwrapper p {
+  margin-top: 2rem;
+}
+
+#introduction #contentpic {
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
