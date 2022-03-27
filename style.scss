@@ -20,7 +20,9 @@ button {
 /* Section 1.0 - Navbar */
 
 header {
-  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 li {
@@ -93,6 +95,7 @@ a {
 }
 
 #showcase {
+  padding-top: 70px;
   background-color: green;
   width: 100%;
   height: 40rem;
@@ -110,7 +113,7 @@ a {
     margin-left: 2rem;
     color: white;
     width: 30rem;
-    height: 37rem;
+    height: 95%;
     background-color: rgba(0, 0, 0, 0.445);
 
     h1 {
@@ -137,9 +140,11 @@ a {
       width: 100px;
       height: 100px;
     }
+
     font-size: 7rem;
     color: white;
     text-shadow: 5px 5px 5px black;
+
     span {
       color: rgb(122, 255, 89);
       font-weight: bold;

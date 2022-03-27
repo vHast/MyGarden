@@ -28,6 +28,9 @@
     text-align: center;
     transition: 0.3s;
     font-weight: bold;
+    a {
+      color: white;
+    }
   }
 
   .nav-item {
@@ -40,6 +43,24 @@
 }
 
 @media(max-width:1768px) {
+
+  #showcase {
+    flex-direction: column;
+
+    .info {
+      margin: 0;
+    }
+    .title {
+      h1 {
+        font-size: 2rem;
+      }
+
+      img {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
 
   #courses {
     .courseswrap {
