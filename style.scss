@@ -108,6 +108,9 @@ a {
   align-items: center;
   justify-content: space-around;
 
+  .hide {
+    display: none;
+  }
   .info {
     padding-top: 2rem;
     padding-left: 2rem;

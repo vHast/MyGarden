@@ -104,6 +104,10 @@ a {
   justify-content: space-around;
 }
 
+#showcase .hide {
+  display: none;
+}
+
 #showcase .info {
   padding-top: 2rem;
   padding-left: 2rem;

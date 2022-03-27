@@ -37,13 +37,31 @@
 
 @media (max-width: 1768px) {
   #showcase {
+    display: flex;
     flex-direction: column;
   }
+  #showcase .hide {
+    display: block;
+  }
+  #showcase .nonhide {
+    display: none;
+  }
   #showcase .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
+    padding: 0;
+  }
+  #showcase .info h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #showcase .info h3 {
+    margin-top: 2rem;
   }
   #showcase .title h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   #showcase .title img {
     width: 35px;
@@ -60,6 +78,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  #introduction {
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding-bottom: 2rem;
+  }
+  #introduction .contentwrapper {
+    width: inherit;
+  }
+  #introduction #contentpic {
+    align-self: center;
+    margin: 0;
+    padding-top: 1rem;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
