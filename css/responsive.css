@@ -83,17 +83,20 @@
     flex-direction: column;
     justify-content: center;
     height: fit-content;
-    padding-left: none;
+    padding: none;
     padding-bottom: 2rem;
   }
   #introduction .contentwrapper {
     width: inherit;
   }
+  #introduction .contentwrapper h1 {
+    padding-left: 2rem;
+  }
   #introduction .contentwrapper p {
     padding-left: 2rem;
   }
   #introduction #contentpic {
-    padding-left: -2rem;
+    margin-left: -32px;
     align-self: center;
     margin: 0;
     padding-top: 1rem;
