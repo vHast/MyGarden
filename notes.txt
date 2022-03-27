@@ -3,3 +3,5 @@
 For courses:
 
 W: 427px H: 284.667px
+
+500x223px

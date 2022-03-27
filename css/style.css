@@ -18,6 +18,7 @@ button {
 
 /* Section 1.0 - Navbar */
 header {
+  height: 70px;
   position: fixed;
   width: 100%;
   background-color: white;
