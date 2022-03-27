@@ -60,6 +60,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
       margin: 0;
       padding: 0;
 
@@ -101,6 +102,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      .columntransform {
+
+        .article {
+          margin: none;
+          width: inherit;
+          .courseimg {
+            width: inherit;
+          }
+        }
+      }
     }
   }
 
@@ -119,7 +131,7 @@
       }
 
       p {
-        padding-left: 2rem;
+        padding-left: 1rem;
       }
     }
 
