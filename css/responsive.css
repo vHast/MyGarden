@@ -83,10 +83,14 @@
     flex-direction: column;
     justify-content: center;
     height: fit-content;
+    padding-left: none;
     padding-bottom: 2rem;
   }
   #introduction .contentwrapper {
     width: inherit;
+  }
+  #introduction .contentwrapper p {
+    padding-left: 2rem;
   }
   #introduction #contentpic {
     align-self: center;

@@ -108,10 +108,15 @@
     flex-direction: column;
     justify-content: center;
     height: fit-content;
+    padding-left: none;
     padding-bottom: 2rem;
     
     .contentwrapper {
       width: inherit;
+
+      p {
+        padding-left: 2rem;
+      }
     }
 
     #contentpic {

@@ -212,11 +212,12 @@ a {
   height: 400px;
   margin-top: 3rem;
   text-align: left;
-  padding-left: 2rem;
   display: flex;
   flex-direction: row;
+  padding-left: 2rem;
 
   .contentwrapper {
+  
     width: 1000px;
     p {
       margin-top: 2rem;
