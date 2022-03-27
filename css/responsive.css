@@ -31,4 +31,19 @@
     left: 0;
   }
 }
+
+@media (max-width: 1768px) {
+  #courses .courseswrap .columntransform {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media (max-width: 876px) {
+  #courses .courseswrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
