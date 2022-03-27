@@ -82,10 +82,10 @@
   }
   #courses .courseswrap .columntransform .article {
     margin: none;
-    width: inherit;
+    width: 100%;
   }
   #courses .courseswrap .columntransform .article .courseimg {
-    width: inherit;
+    width: 100%;
   }
   #introduction {
     flex-direction: column;
