@@ -83,7 +83,11 @@
     justify-content: center;
     align-items: center;
   }
+  #courses .courseswrap .columntransform {
+    margin: 0;
+  }
   #courses .courseswrap .columntransform .article {
+    gap: none;
     margin: none;
     width: 100%;
   }

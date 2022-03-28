@@ -106,7 +106,10 @@
 
       .columntransform {
 
+        margin: 0;
+
         .article {
+          gap: none;
           margin: none;
           width: 100%;
           .courseimg {

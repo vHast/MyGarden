@@ -95,6 +95,7 @@ a {
   background-color: rgb(44, 122, 24);
 }
 
+/* Section 2 - Showcase*/
 #showcase {
   padding-top: 70px;
   background-color: green;
@@ -165,6 +166,7 @@ a {
   align-items: center;
 }
 
+/* Section 2.1 - Courses list*/
 #courses {
   margin: 0 5rem;
   height: fit-content;
@@ -207,7 +209,7 @@ a {
     margin-top: 1rem;
   }
 }
-
+/* Section 2.2 - Introduction*/
 #introduction {
   height: 400px;
   margin-top: 3rem;
@@ -239,5 +241,45 @@ footer {
   justify-content: center;
   a {
     color: white;
+  }
+}
+
+/* Section 3 - Blog*/
+
+#blogs {
+  padding-top: 70px;
+  display: flex;
+  margin-left: 13rem;
+  flex-direction: column;
+  height: 92vh;
+
+  :first-child {
+    margin-top: 2rem;
+  }
+
+  article {
+    display: flex;
+    width: 1000px;
+    height: fit-content;
+    align-items: center;
+
+    img {
+      width: 300px;
+      height: 200px;
+    }
+
+    h4 {
+      color: gray;
+    }
+
+    p {
+      padding-top: 0.5rem;
+    }
+
+    .bloginfo {
+      padding-left: 2rem;
+    }
+    
+    
   }
 }
