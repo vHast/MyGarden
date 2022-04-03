@@ -17,6 +17,21 @@ button {
 
 }
 
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(66, 165, 0);
+  width: 100px;
+  height: 2rem;
+  border-radius: 5%;
+
+}
+
 /* Section 1.0 - Navbar */
 
 header {
@@ -246,8 +261,43 @@ footer {
 
 /* Section 3 - Blog*/
 
-#blogs {
+.blogswrapper {
   padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+
+  #author {
+    margin-left: 2rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+    max-width: 250px;
+    .sectionwrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      h1 {
+        padding-top: 1rem;
+      }
+
+      h4 {
+        padding-top: 0.4rem;
+      }
+      
+      p {
+        padding-top: 1rem;
+      }
+    }
+  }
+}
+
+#blogs {
   display: flex;
   margin-left: 13rem;
   flex-direction: column;
@@ -259,7 +309,7 @@ footer {
 
   article {
     display: flex;
-    width: 1000px;
+    max-width: 1000px;
     height: fit-content;
     align-items: center;
 

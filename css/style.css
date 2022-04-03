@@ -16,6 +16,20 @@ button {
   height: 2rem;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: #42a500;
+  width: 100px;
+  height: 2rem;
+  border-radius: 5%;
+}
+
 /* Section 1.0 - Navbar */
 header {
   height: 70px;
@@ -242,8 +256,45 @@ footer a {
 }
 
 /* Section 3 - Blog*/
-#blogs {
+.blogswrapper {
   padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogswrapper #author {
+  margin-left: 2rem;
+  margin-right: 8rem;
+  margin-top: 5rem;
+  max-width: 250px;
+}
+
+.blogswrapper #author .sectionwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogswrapper #author .sectionwrapper img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.blogswrapper #author .sectionwrapper h1 {
+  padding-top: 1rem;
+}
+
+.blogswrapper #author .sectionwrapper h4 {
+  padding-top: 0.4rem;
+}
+
+.blogswrapper #author .sectionwrapper p {
+  padding-top: 1rem;
+}
+
+#blogs {
   display: flex;
   margin-left: 13rem;
   flex-direction: column;
@@ -256,7 +307,7 @@ footer a {
 
 #blogs article {
   display: flex;
-  width: 1000px;
+  max-width: 1000px;
   height: fit-content;
   align-items: center;
 }
