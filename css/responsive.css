@@ -33,6 +33,27 @@
   .nav-menu.active {
     left: 0;
   }
+  .blogswrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #blogs {
+    margin-left: 0px;
+    height: fit-content;
+    max-width: 0px;
+  }
+  #blogs :first-child {
+    margin-top: none;
+  }
+  #blogs article {
+    flex-direction: column;
+    width: 80%;
+  }
+  #blogs article .bloginfo {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 1768px) {
