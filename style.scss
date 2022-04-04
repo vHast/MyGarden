@@ -25,7 +25,8 @@ button {
   align-items: center;
   justify-content: center;
   align-self: center;
-  background-color: rgb(66, 165, 0);
+  background: rgb(72,179,87);
+  background: linear-gradient(111deg, rgba(72,179,87,1) 0%, rgba(66,165,0,1) 100%); 
   width: 100px;
   height: 2rem;
   border-radius: 5%;
@@ -111,6 +112,7 @@ a {
 }
 
 /* Section 2 - Showcase*/
+
 #showcase {
   padding-top: 70px;
   background-color: green;
@@ -128,6 +130,8 @@ a {
     display: none;
   }
   .info {
+    display: flex;
+    flex-direction: column;
     padding-top: 2rem;
     padding-left: 2rem;
     margin-left: 2rem;
@@ -144,8 +148,9 @@ a {
       margin-top: 1rem;
     }
 
-    button {
-      margin-top: 0.5rem;
+    .btn {
+      margin-top: 1rem;
+      color: white;
     }
   }
 

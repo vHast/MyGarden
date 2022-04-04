@@ -24,7 +24,8 @@ button {
   align-items: center;
   justify-content: center;
   align-self: center;
-  background-color: #42a500;
+  background: #48b357;
+  background: linear-gradient(111deg, #48b357 0%, #42a500 100%);
   width: 100px;
   height: 2rem;
   border-radius: 5%;
@@ -124,6 +125,8 @@ a {
 }
 
 #showcase .info {
+  display: flex;
+  flex-direction: column;
   padding-top: 2rem;
   padding-left: 2rem;
   margin-left: 2rem;
@@ -141,8 +144,9 @@ a {
   margin-top: 1rem;
 }
 
-#showcase .info button {
-  margin-top: 0.5rem;
+#showcase .info .btn {
+  margin-top: 1rem;
+  color: white;
 }
 
 #showcase .title {
